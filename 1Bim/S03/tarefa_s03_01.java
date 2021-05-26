@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.lang.Math;
 
 public class tarefa_s03_01 {
     public static void main(String[] args) {
@@ -15,8 +14,11 @@ public class tarefa_s03_01 {
             System.out.println("Insira um número: ");
             notas[i] = scan.nextInt();
         }
+        depositoMin = notas[0];
         for (int i = 0; i<cont-1;i++) {
-            depositoMax = Math.max(notas[i], notas[i+1]);
+            if (notas[i] > depositoMax) {
+                depositoMax = notas[i];
+            }
             if (notas[i] < depositoMin) {
                 depositoMin = notas[i];
             }
