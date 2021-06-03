@@ -1,6 +1,7 @@
 {
     "java.project.sourcePaths": [
         "S03",
-        "S02"
+        "S02",
+        "S04"
     ]
 }
