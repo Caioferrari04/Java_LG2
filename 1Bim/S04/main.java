@@ -1,10 +1,11 @@
 class Main {
     public static void main(String[] args) {
         String nome = args[0];
-        double[] notas = new double[3];
+        int tamanho = args.length;
+        double[] notas = new double[tamanho-1];
 
 
-        for(int i=0;i<3;i++){
+        for(int i=0;i<tamanho-1;i++){
             notas[i] = Double.parseDouble(args[i+1]);
         }  
         double media = Estatistica.calcularMedia(notas);
