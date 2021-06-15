@@ -2,8 +2,8 @@ class Main {
     public static void main(String[] args) {
         int[] numeros = {1, 4, 5, 7, 9, 11, 15};
         int numero = 15;
-        String[] nomes = {"Caio","Mané","Moné","Muné"};
-        String nome = "Muné";
+        String[] nomes = {"Caio","Mane","Mone","Mune"};
+        String nome = "Mune";
         int posicaoEncontrada = buscaBinaria(numero, numeros);
         int posicaoNome = buscaNomes(nome, nomes);
         System.out.println(posicaoEncontrada);
