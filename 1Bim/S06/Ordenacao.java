@@ -16,7 +16,7 @@ public class Ordenacao {
         return vetor;
       }
       public static int[] InsertionSort(int[] vetor) {
-          vetor = VetorUtil.copiar(vetor);
+        vetor = VetorUtil.copiar(vetor);
   
         for (int j = 1; j < vetor.length; j++) {  
             int chave = vetor[j];  
