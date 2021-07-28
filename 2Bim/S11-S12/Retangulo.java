@@ -20,7 +20,8 @@ public class Retangulo {
         setResultadoPerimetro(2*(base+altura));
     }
     public PrintStream getResultados(){
-        return System.out.printf("\nA área do retângulo vale: %d\nO perimetro do retângulo vale: %d", this.resultadoArea, this.resultadoPerimetro);
+        return System.out.printf("\nA área do retângulo vale: %d\nO perimetro do retângulo vale: %d", 
+        this.resultadoArea, this.resultadoPerimetro);
     }
     
 }
