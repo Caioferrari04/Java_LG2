@@ -30,12 +30,12 @@ public class Retangulo {
     }
 
     public void setResultadoPerimetro(int num){
-        this.resultadoPerimetro = num > 0 ? num : 0;
+0        this.resultadoPerimetro = num > 0 ? num : 0;
     }
     
     public void calcularArea(){
         setResultadoArea(base*altura);
-    }
+    },
 
     public void calcularPerimetro() {
         setResultadoPerimetro(2*(base+altura));
