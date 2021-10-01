@@ -23,7 +23,7 @@ public class Aviao {
     public Integer getTotalPeso() {
         Integer pesoAtual = 0;
         for (Carga cargaAtual : this.cargas) 
-            pesoAtual += cargaAtual.peso;
+            pesoAtual += cargaAtual.getPeso();
         return pesoAtual;
     }
 
@@ -33,7 +33,7 @@ public class Aviao {
 
     public void adicionarCargas(Carga carga) {
         Integer pesoAtual = getTotalPeso();
-        if(pesoLimite >= carga.peso + pesoAtual){
+        if(pesoLimite >= carga.getPeso() + pesoAtual){
             this.cargas.add(carga);
             System.out.println("Carga adicionada!");
         }
