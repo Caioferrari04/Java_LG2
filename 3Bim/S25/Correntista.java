@@ -12,10 +12,10 @@ public class Correntista {
         contas = new ArrayList<>();
     }
 
-    public Correntista(int codigo, String nome, List<Conta> contas) {
+    public Correntista(int codigo, String nome) {
         this.codigo = codigo;
         this.nome = nome;
-        this.contas = contas;
+        this.contas = new ArrayList<>();
     }
 
     public int getCodigo() {
@@ -42,5 +42,11 @@ public class Correntista {
         this.contas = contas;
     }
 
-
+    public double totalTarifa(){
+        double total = 0;
+        for(Conta conta : this.contas){
+            total = total + conta.calcularTarifa();
+        }
+        return total;
+    }
 }

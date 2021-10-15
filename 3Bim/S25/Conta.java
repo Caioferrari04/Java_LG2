@@ -32,8 +32,7 @@ public class Conta {
     }
 
     public double calcularTarifa() {
-        saldo = saldo * (tarifa/100);
-        return saldo;
+        return 7;
     }
 
     public int getNumero() {
