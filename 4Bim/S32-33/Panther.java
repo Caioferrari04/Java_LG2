@@ -5,7 +5,6 @@ import java.util.Random;
 public class Panther implements Tanque {
     private List<Municao> municoes = new ArrayList<>();
     private Integer calibreCanhao = 75;
-    private Integer potenciaMotor = 500;
     private Municao municaoCarregada;
     private boolean transmissaoFunciona = true;
 

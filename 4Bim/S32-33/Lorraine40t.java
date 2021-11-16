@@ -4,7 +4,6 @@ import java.util.ArrayList;
 public class Lorraine40t implements Tanque {
     private List<Municao> municoes = new ArrayList<>();
     private Integer calibreCanhao = 100;
-    private Integer potenciaMotor = 1000;
     private Municao municaoCarregada;
 
     public boolean atirarCanhao() {
