@@ -1,6 +1,10 @@
 public interface Tanque {
-    public boolean atirarCanhao();
-    public boolean regarregarCanhao();
-    public boolean ligarMotor();
-    public boolean adicionarMunicao(Municao municao);
+
+    boolean atirarCanhao();
+
+    boolean regarregarCanhao();
+
+    boolean ligarMotor();
+
+    boolean adicionarMunicao(Municao municao);
 }
