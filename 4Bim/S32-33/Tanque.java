@@ -1,10 +1,3 @@
-public interface Tanque {
-
-    boolean atirarCanhao();
-
-    boolean regarregarCanhao();
-
-    boolean ligarMotor();
-
+public interface Tanque extends Veiculo, Canhao {
     boolean adicionarMunicao(Municao municao);
 }
