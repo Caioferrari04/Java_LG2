@@ -6,6 +6,7 @@ public class VetorGenerico<T> implements IVetorGenerico<T> {
 
     public VetorGenerico(int capacidade){
         elementos = (T[]) new Object[capacidade];
+        tamanho = 0;
     }
 
     @Override
